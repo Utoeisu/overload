@@ -43,9 +43,9 @@ if __name__ == "__main__":
     os.system('cls' if os.name == 'nt' else 'clear')
     print(CRED2 + logo + CRED2)
     print("├───DDOS TOOL LAYER 7")
-    time = int(input(f"{Fore.RED}│   ├───TIME:{Fore.RESET}"))
-    threads = int(input(f"{Fore.RED}│   └───THREADS:{Fore.RESET}"))
-    target = str(input(f"{Fore.RED}│   └───URL:{Fore.RESET}"))
+    time = int(input(f"{Fore.RED}│   ├───Skid time:{Fore.RESET}"))
+    threads = int(input(f"{Fore.RED}│   └───Tread there wifi:{Fore.RESET}"))
+    target = str(input(f"{Fore.RED}│   └───Server.url:{Fore.RESET}"))
     with AttackMethod(
         duration=time, name=method, threads=threads, target=target
     ) as Flood:
